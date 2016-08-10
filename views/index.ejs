@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Mongoose Dashboard</title>
+	<link rel="stylesheet" type="text/css" href="materialize.css">
+	<link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jquerymobile/1.4.5/jquery.mobile.min.css">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquerymobile/1.4.5/jquery.mobile.min.js"></script>
+	<script type="text/javascript">
+		$(document).ready(function({
+
+		})
+
+
+
+
+	</script>
+</head>
+<body>
+
+	<div class="container">
+	<h1>Welcome to Quote Dojo</h1>
+	<div class= "input-field">
+		<form action="/quotes" method="post">
+	<table class="fillout col s6 offset s6 ">
+			<tr>
+				<td>Name:</td>
+				<td><input class="validate" type="text" name="name" placeholder="Name"></td>
+			</tr>
+			<tr>
+				<td>Your Quote</td>
+				<td><textarea class='materialize-textarea' name= "quote" cols="25" rows='25' placeholder="Quote"></textarea></td>
+			</tr>
+			<tr>
+				<td></td>
+				
+				<td><input type="submit" name="submit" value="submit"></td>
+			</tr>
+	</table>
+	</form>
+	</div>
+	</div>
+	
+
+
+
+</body>
+</html>
